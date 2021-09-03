@@ -1,0 +1,50 @@
+{
+  "type": "bubble",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "Search Manga",
+        "weight": "bold",
+        "align": "center"
+      },
+      {
+        "type": "separator",
+        "margin": "md"
+      }
+    ],
+    "margin": "none"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "Search by Name",
+          "text": "search by name"
+        }
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "Search by Genre",
+          "text": "search by genre"
+        }
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "Popular Manga",
+          "text": "show popular manga"
+        }
+      }
+    ]
+  }
+}
